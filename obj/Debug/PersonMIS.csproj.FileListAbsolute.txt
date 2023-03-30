@@ -1,0 +1,12 @@
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.csproj.AssemblyReference.cache
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.csproj.SuggestedBindingRedirects.cache
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.frmMain.resources
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.Properties.Resources.resources
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.csproj.GenerateResource.cache
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.csproj.CoreCompileInputs.cache
+D:\c#\PersonMIS\PersonMIS\bin\Debug\PersonMIS.exe.config
+D:\c#\PersonMIS\PersonMIS\bin\Debug\PersonMIS.exe
+D:\c#\PersonMIS\PersonMIS\bin\Debug\PersonMIS.pdb
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.exe
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.pdb
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.JobManage.AddJob.resources
