@@ -72,6 +72,7 @@
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "退出";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // BrowseJob
             // 
@@ -83,7 +84,7 @@
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.dgvJobInfo);
             this.Name = "BrowseJob";
-            this.Text = "BrowseJob";
+            this.Text = "                                                            工种种类浏览";
             this.Load += new System.EventHandler(this.BrowseJob_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvJobInfo)).EndInit();
             this.ResumeLayout(false);

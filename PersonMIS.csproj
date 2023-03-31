@@ -140,6 +140,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DepartMange\AddDepart.resx">
+      <DependentUpon>AddDepart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartMange\BrowseDepart.resx">
+      <DependentUpon>BrowseDepart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartMange\ModifyDepart.resx">
+      <DependentUpon>ModifyDepart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JobManage\ModifyJob.resx">
       <DependentUpon>ModifyJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonManage\AddPerson.resx">
+      <DependentUpon>AddPerson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
