@@ -125,7 +125,7 @@
             this.Controls.Add(this.btnCannel);
             this.Controls.Add(this.btnOK);
             this.Name = "ModifyJob";
-            this.Text = "ModifyJob";
+            this.Text = "                                             修改工种种类";
             this.Load += new System.EventHandler(this.ModifyJob_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

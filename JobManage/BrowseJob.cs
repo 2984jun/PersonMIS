@@ -83,7 +83,7 @@ namespace PersonMIS.JobManage
             {
                 if(con.State== ConnectionState.Closed)
                 {
-                    con.Close();
+                    con.Open();
                 };
 
                 try
@@ -91,7 +91,7 @@ namespace PersonMIS.JobManage
                     if (this.dgvJobInfo.CurrentCell != null)
                     {
                         string sql = "SELECT JobName FROM tb_JobInfo WHERE JobID=" + this.dgvJobInfo[0, this.dgvJobInfo.CurrentCell.RowIndex].Value.ToString().Trim() +
-                            "AND JobID NOT IN(SELECT DISTINCT tb_JobInfo.JobID FORM" + "tb_PersonInfo INNER JOIN tb_JobInfo ON tb_PersonInfo.JobName=tb_JobInfo.JobName)";
+                            "AND JobID NOT IN(SELECT DISTINCT tb_JobInfo.JobID FROM tb_PersonInfo INNER JOIN tb_JobInfo ON tb_PersonInfo.JobName=tb_JobInfo.JobName)";
 
                         SqlCommand cmd = new SqlCommand(sql, con);
                         SqlDataReader dr;
@@ -105,7 +105,7 @@ namespace PersonMIS.JobManage
                         else
                         {
                             dr.Close();
-                            sql = "DELETE FROM tb_JobInfo WHERE JobInfo=" + this.dgvJobInfo[0, this.dgvJobInfo.CurrentCell.RowIndex].Value.ToString().Trim() +
+                            sql = "DELETE FROM tb_JobInfo WHERE JobID=" + this.dgvJobInfo[0, this.dgvJobInfo.CurrentCell.RowIndex].Value.ToString().Trim() +
                                 "AND JobName NOT IN(SELECT DISTINCT JobName FROM tb_PersonInfo)";
 
                             cmd.CommandText = sql;
@@ -131,6 +131,11 @@ namespace PersonMIS.JobManage
             }
             showinf();
             
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

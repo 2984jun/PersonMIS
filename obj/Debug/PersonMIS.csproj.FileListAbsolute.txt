@@ -12,3 +12,4 @@ D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.pdb
 D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.JobManage.AddJob.resources
 D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.JobManage.BrowseJob.resources
 D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.JobManage.ModifyJob.resources
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.DepartMange.AddDepart.resources

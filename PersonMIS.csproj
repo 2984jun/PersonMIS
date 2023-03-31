@@ -140,6 +140,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DepartMange\AddDepart.resx">
+      <DependentUpon>AddDepart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartMange\BrowseDepart.resx">
+      <DependentUpon>BrowseDepart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepartMange\ModifyDepart.resx">
+      <DependentUpon>ModifyDepart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
