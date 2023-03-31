@@ -146,6 +146,12 @@
     <EmbeddedResource Include="JobManage\AddJob.resx">
       <DependentUpon>AddJob.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="JobManage\BrowseJob.resx">
+      <DependentUpon>BrowseJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobManage\ModifyJob.resx">
+      <DependentUpon>ModifyJob.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
