@@ -124,10 +124,10 @@ namespace PersonMIS.PersonManage
                         {
                             string sql, sql1, sql2;
 
-                            sql1 = "INSERT INTO tb_PersonInfo(PID,Pname,Psex,Pplace,Plevel,DID,JobName,LoginDate";
+                            sql1 = "INSERT INTO tb_PersonInfo(PID,Pname,Psex,Pspecial,Pplace,Plevel,DID,JobName,LoginDate";
                             sql2 = "VALUES('" + this.txtPID.Text.ToString().Trim() + "','" + this.txtPname.Text.ToString().Trim() + "','" +
-                                this.cmbPsex.Text.ToString().Trim() + "','" + this.txtPplace.Text.ToString().Trim() + "','" +
-                                this.txtPlevel.Text.ToString().Trim() + "','" + this.cmbDID.Text.ToString().Trim() + "','" +
+                                this.cmbPsex.Text.ToString().Trim() + "','"+this.txtPspecial.Text.ToString().Trim()+"','" + this.txtPplace.Text.ToString().Trim() + "','" +
+                                this.txtPlevel.Text.ToString().Trim() + "','" + this.cmbDID.SelectedValue.ToString().Trim() + "','" +
                                 this.cmbJobName.Text.ToString().Trim() + "','" + dt1 + "'";
 
                             if(this.txtRemark.Text.Trim() != null)

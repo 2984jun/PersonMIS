@@ -130,7 +130,7 @@
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnOK);
             this.Name = "ModifyDepart";
-            this.Text = "                                                    修改部门信息";
+            this.Text = "                                                 修改部门信息";
             this.Load += new System.EventHandler(this.ModifyDepart_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

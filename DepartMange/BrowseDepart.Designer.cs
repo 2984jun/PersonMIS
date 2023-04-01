@@ -85,7 +85,7 @@
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Name = "BrowseDepart";
-            this.Text = "                                                                 部门信息浏览";
+            this.Text = "                                                                 浏览部门信息";
             this.Load += new System.EventHandler(this.BrowseDepart_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDepartInfo)).EndInit();
             this.ResumeLayout(false);

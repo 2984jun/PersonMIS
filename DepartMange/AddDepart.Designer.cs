@@ -122,7 +122,7 @@
             this.Controls.Add(this.btnCannel);
             this.Controls.Add(this.btnOK);
             this.Name = "AddDepart";
-            this.Text = "                                                  添加部门信息";
+            this.Text = "                                                    添加部门信息";
             this.Load += new System.EventHandler(this.AddDepart_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

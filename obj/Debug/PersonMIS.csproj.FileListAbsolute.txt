@@ -16,3 +16,9 @@ D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.DepartMange.AddDepart.resources
 D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.DepartMange.BrowseDepart.resources
 D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.DepartMange.ModifyDepart.resources
 D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.PersonManage.AddPerson.resources
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.PersonManage.BrowsePerson.resources
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.PersonManage.ModifyPerson.resources
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.IncomeManage.AddIncome.resources
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.IncomeManage.BrowseIncome.resources
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.IncomeManage.ModifyIncome.resources
+D:\c#\PersonMIS\PersonMIS\obj\Debug\PersonMIS.About.resources

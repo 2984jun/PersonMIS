@@ -91,7 +91,7 @@ namespace PersonMIS.DepartMange
                     if (this.dgvDepartInfo.CurrentCell != null)
                     {
                         string sql = "SELECT Dname FROM tb_DepartInfo WHERE DID =" + this.dgvDepartInfo[0, this.dgvDepartInfo.CurrentCell.RowIndex].Value.ToString().Trim() +
-                            "AND DID NOT IN(SELECT DISTINCT tb_PersonInfo.DID FROM tb_PersonInfo INNER JOIN tb_DepartInfo ON tb_PersonInfo.DID=tb_DepartInfo.DID)";
+                            "AND DID NOT IN(SELECT DISTINCT tb_PersonInfo INNER JOIN tb_DepartInfo ON tb_PersonInfo.DID=tb_DepartInfo.DID)";
                         SqlCommand cmd = new SqlCommand(sql,con);
                         SqlDataReader dr;
                         dr = cmd.ExecuteReader();
